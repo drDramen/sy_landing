@@ -1,0 +1,13 @@
+.icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  transition: fill var(--transition);
+}
+
+.icon-find {
+  width: 14px;
+  height: 14px;
+  color: #ff5c00;
+}
