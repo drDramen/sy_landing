@@ -2,7 +2,7 @@
 @import "css/general.css";
 @import "css/icons.css";
 
-/* header start*/
+/* header start */
 
 .header {
   background-color: var(--system-color-backgroundSecondary);
@@ -98,4 +98,4 @@
   }
 }
 
-/* header end*/
+/* header end */
