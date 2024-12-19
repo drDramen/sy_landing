@@ -6,14 +6,18 @@
   --transition: 0.3s ease-in-out;
 
   /* colors */
-  --system-color-backgroundPrimary: #f5f5f5;
+  --system-color-primary: #ff5c00;
+  --system-color-secondary: #544cac;
+
+  --system-color-backgroundPrimary: #fff;
   --system-color-backgroundSecondary: #f5f7ff;
-  --system-color-backgroundCard: #fff;
   --system-color-backgroundCardActive: #f9faff;
   --system-color-backgroundInfographic: #ced5f4;
   --system-color-backgroundFooter: #dbe2ff;
 
   --system-color-fontPrimary: #a8a8a8;
+  --system-color-fontSecondary: #fff;
+  --system-color-fontTitle: #353434;
   --system-color-fontPlaceholder: #a5a5a5;
 
   /* fonts  */
