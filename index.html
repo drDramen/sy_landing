@@ -9,7 +9,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Oswald&family=Prompt&display=swap"
       rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body class="page__body">
@@ -28,7 +28,7 @@
             />
           </a>
           <nav class="menu header__menu" data-menu>
-            <ul class="menu__list" role='list'>
+            <ul class="menu__list" role="list">
               <li class="menu__item menu__item--active"><a href="./" class="menu__link link">Home</a></li>
               <li class="menu__item"><a href="#" class="menu__link link">Pricing</a></li>
               <li class="menu__item"><a href="#" class="menu__link link">Blog</a></li>
@@ -43,9 +43,9 @@
               placeholder="Search here...."
               aria-label="Search here"
             />
-            <button class="search__button button-reset">
+            <button class="button-search button">
               <svg class="icon icon-find">
-                <use xlink:href="assets/images/svg/sprite.svg#find"/>
+                <use xlink:href="assets/images/svg/sprite.svg#find" />
               </svg>
             </button>
           </div>
@@ -59,27 +59,160 @@
 
       <main class="main">
         <section class="hero">
-          <div class="container"></div>
+          <div class="hero__container container">
+            <div class="hero__wrapper">
+              <h2 class="hero__title">
+                Find out talented
+                <br />
+                <strong>freelancer</strong>&nbsp;with
+                <br />
+                better review faster.
+              </h2>
+              <p class="hero__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip.
+              </p>
+              <div class="hero__buttons hero-buttons">
+                <button class="hero-buttons__discover button button--main ">Discover Now</button>
+                <button class="button button-demo">
+                  <span class="button-demo__icon-wrapper">
+                    <svg class="icon icon-demo">
+                      <use xlink:href="assets/images/svg/sprite.svg#play" />
+                    </svg>
+                  </span>
+                  <span>Watch Demo</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </section>
         <section class="companies">
+          <div class="companies__container container">
+            <div><img src="assets/images/design-studio-logo.png" alt="Design Studio" /></div>
+            <div><img src="assets/images/design-branding-logo.png" alt="Design and Branding" /></div>
+            <div><img src="assets/images/greenery-logo.png" alt="The Greenery - pure nature" /></div>
+            <div><img src="assets/images/natural-logo.png" alt="Style Natural - organic beauty" /></div>
+            <div><img src="assets/images/nature-logo.png" alt="Style Nature - organic beauty" /></div>
+            <div><img src="assets/images/your-company-logo.png" alt="Your Company - premium quality" /></div>
+          </div>
+        </section>
+        <section class="hiw section">
+          <div class="hiw__container container">
+            <h2 class="hiw__title">How it works</h2>
+            <div class="hiw__content">
+              <h3 class="hiw__content-title section__title">Start find a job you love with us easily</h3>
+              <ul class="hiw__list" role="list">
+                <li class="hiw__item hiw-item">
+                  <div class="hiw-item__header">
+                    <span class="hiw-item__number">1</span>
+                    <h4 class="hiw-item__title">Complete Profile</h4>
+                    <button class="hiw-item__indicator button">
+                      <svg class="icon icon-indicator">
+                        <use xlink:href="assets/images/svg/sprite.svg#arrow" />
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="hiw-item__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation.</p>
+                </li>
+                <li class="hiw__item hiw-item hiw__item--open">
+                  <div class="hiw-item__header">
+                    <span class="hiw-item__number">2</span>
+                    <h4 class="hiw-item__title">Search Vacancies</h4>
+                    <button class="hiw-item__indicator button">
+                      <svg class="icon icon-indicator">
+                        <use xlink:href="assets/images/svg/sprite.svg#arrow" />
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="hiw-item__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation.</p>
+                </li>
+                <li class="hiw__item hiw-item">
+                  <div class="hiw-item__header">
+                    <span class="hiw-item__number">3</span>
+                    <h4 class="hiw-item__title">Apply Job</h4>
+                    <button class="hiw-item__indicator button">
+                      <svg class="icon icon-indicator">
+                        <use xlink:href="assets/images/svg/sprite.svg#arrow" />
+                      </svg>
+                    </button>
+                  </div>
+                  <p class="hiw-item__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="hiw__video-wrapper hiw-video-wrapper">
+              <video class="hiw-video-wrapper__video" poster="assets/images/how-it-works-poster.jpeg"></video>
+              <button class="hiw-video-wrapper__button button" type="button">
+                <svg class="icon icon-play">
+                  <use xlink:href="assets/images/svg/sprite.svg#play" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="why-us section">
+          <div class="container">
+            <h2 class="why-us__title section__title">Why Choose Us</h2>
+            <p class="why-us__subtitle section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <ul class="why-us__list" role="list">
+              <li class="why-us__item why-us-item">
+                <div class="why-us-item__icon">
+                  <svg class="icon icon-benefit">
+                    <use xlink:href="assets/images/svg/sprite.svg#benefit" />
+                  </svg>
+                </div>
+                <h3 class="why-us-item__title">
+                  Trusted
+                </h3>
+                <p class="why-us-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna.</p>
+              </li>
+              <li class="why-us__item why-us-item">
+                <div class="why-us-item__icon">
+                  <svg class="icon icon-benefit">
+                    <use xlink:href="assets/images/svg/sprite.svg#benefit" />
+                  </svg>
+                </div>
+                <h3 class="why-us-item__title">
+                  Easy to Use
+                </h3>
+                <p class="why-us-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna.</p>
+              </li>
+              <li class="why-us__item why-us-item">
+                <div class="why-us-item__icon">
+                  <svg class="icon icon-benefit">
+                    <use xlink:href="assets/images/svg/sprite.svg#benefit" />
+                  </svg>
+                </div>
+                <h3 class="why-us-item__title">
+                  Faster
+                </h3>
+                <p class="why-us-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna.</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="jobs section">
           <div class="container"></div>
         </section>
-        <section class="how-it-works">
+        <section class="feedbacks section">
           <div class="container"></div>
         </section>
-        <section class="why-us">
+        <section class="infographic section">
           <div class="container"></div>
         </section>
-        <section class="jobs">
-          <div class="container"></div>
-        </section>
-        <section class="feedbacks">
-          <div class="container"></div>
-        </section>
-        <section class="">
-          <div class="container"></div>
-        </section>
-        <section class="">
+        <section class="pricing section">
           <div class="container"></div>
         </section>
       </main>
