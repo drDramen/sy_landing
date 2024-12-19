@@ -12,8 +12,8 @@ body {
   margin: unset;
 }
 
-h1, h2, h3, h4, p, figure, blockquote, dl, dd {
-  margin-block-end: 0;
+h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+  margin: 0;
 }
 
 h1, h2, h3, h4,
@@ -26,14 +26,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  margin: 0;
   text-wrap: pretty;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
-}
-
-img {
+img, video {
   display: block;
   max-width: 100%;
 }
@@ -46,6 +43,7 @@ a:not([class]) {
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
+  padding: 0;
 }
 
 input, button, textarea, select {
@@ -84,10 +82,18 @@ input, button, textarea, select {
   max-width: var(--container-width);
 }
 
-.button-reset {
+.button {
+  padding: 0;
+  font-size: var(--system-font-sizeSecondary);
   border: none;
   background: transparent;
   cursor: pointer;
+}
+
+.button--main {
+  color: var(--system-color-fontSecondary);
+  background-color: var(--system-color-secondary);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .link {
