@@ -159,12 +159,11 @@
         </section>
         <section class="why-us section">
           <div class="container">
-            <h2 class="why-us__title section__title">Why Choose Us</h2>
-            <p class="why-us__subtitle section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <h2 class="section__title">Why Choose Us</h2>
+            <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <ul class="why-us__list" role="list">
-              <li class="why-us__item why-us-item">
+              <li class="why-us__item why-us-item card">
                 <div class="why-us-item__icon">
                   <svg class="icon icon-benefit">
                     <use xlink:href="assets/images/svg/sprite.svg#benefit" />
@@ -176,7 +175,7 @@
                 <p class="why-us-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna.</p>
               </li>
-              <li class="why-us__item why-us-item">
+              <li class="why-us__item why-us-item card">
                 <div class="why-us-item__icon">
                   <svg class="icon icon-benefit">
                     <use xlink:href="assets/images/svg/sprite.svg#benefit" />
@@ -188,11 +187,13 @@
                 <p class="why-us-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna.</p>
               </li>
-              <li class="why-us__item why-us-item">
+              <li class="why-us__item why-us-item card">
                 <div class="why-us-item__icon">
+
                   <svg class="icon icon-benefit">
                     <use xlink:href="assets/images/svg/sprite.svg#benefit" />
                   </svg>
+                  p.pricing-item-feature__text
                 </div>
                 <h3 class="why-us-item__title">
                   Faster
@@ -204,16 +205,337 @@
           </div>
         </section>
         <section class="jobs section">
-          <div class="container"></div>
+          <div class="jobs__container">
+            <h2 class="section__title">Featured Jobs</h2>
+            <p class="jobs__section-subtitle section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div class="jobs-slider">
+              <div class="jobs-slider__control slider-control">
+                <button class="jobs-slider__control-button slider-control__button slider-control__button--left button">
+                  <svg class="icon">
+                    <use xlink:href="assets/images/svg/sprite.svg#arrow-line" />
+                  </svg>
+                </button>
+                <button class="jobs-slider__control-button slider-control__button button">
+                  <svg class="icon">
+                    <use xlink:href="assets/images/svg/sprite.svg#arrow-line" />
+                  </svg>
+                </button>
+              </div>
+              <ul class="jobs-slider__list" role="list">
+                <li class="jobs-slider__item slider-item card">
+                  <div class="slider-item__avatar">
+                    <img src="assets/images/job-1.jpeg" alt="Database Programmer - Marraz Team" />
+                  </div>
+                  <h3 class="slider-item__title">
+                    Database Programmer
+                  </h3>
+                  <p class="slider-item__company">Marraz Team</p>
+                  <div class="slider-item__content slider-item-content">
+                    <div class="slider-item-content__row">
+                      <div class="slider-item-content__icon">
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#dollar" />
+                        </svg>
+                      </div>
+                      <span>$14,000 - $25,000 </span>
+                      <i class="slider-item-content__period">/monthly</i>
+                    </div>
+                    <div class="slider-item-content__row">
+                      <div class="slider-item-content__icon">
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#pin" />
+                        </svg>
+                      </div>
+                      <span>London,England</span>
+                      <a href="#" class="slider-item-content__link">View map</a>
+                    </div>
+                  </div>
+                  <div class="slider-item__footer">
+                    <button class="slider-item__favorite button">
+                      <svg class="icon">
+                        <use xlink:href="assets/images/svg/sprite.svg#heart" />
+                      </svg>
+                    </button>
+                    <button class="slider-item__button jobs__button button ">Apply Now</button>
+                  </div>
+                </li>
+                <li class="jobs-slider__item slider-item card">
+                  <div class="slider-item__avatar">
+                    <img src="assets/images/job-2.jpeg" alt="Database Programmer - Marraz Team" />
+                  </div>
+                  <h3 class="slider-item__title">
+                    Database Programmer
+                  </h3>
+                  <p class="slider-item__company">Marraz Team</p>
+                  <div class="slider-item__content slider-item-content">
+                    <div class="slider-item-content__row">
+                      <div class="slider-item-content__icon">
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#dollar" />
+                        </svg>
+                      </div>
+                      <span>$14,000 - $25,000 </span>
+                      <i class="slider-item-content__period">/monthly</i>
+                    </div>
+                    <div class="slider-item-content__row">
+                      <div class="slider-item-content__icon">
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#pin" />
+                        </svg>
+                      </div>
+                      <span>London,England</span>
+                      <a href="#" class="slider-item-content__link">View map</a>
+                    </div>
+                  </div>
+                  <div class="slider-item__footer">
+                    <button class="slider-item__favorite button">
+                      <svg class="icon">
+                        <use xlink:href="assets/images/svg/sprite.svg#heart" />
+                      </svg>
+                    </button>
+                    <button class="slider-item__button jobs__button button ">Apply Now</button>
+                  </div>
+                </li>
+                <li class="jobs-slider__item slider-item card">
+                  <div class="slider-item__avatar">
+                    <img src="assets/images/job-1.jpeg" alt="Database Programmer - Marraz Team" />
+                  </div>
+                  <h3 class="slider-item__title">
+                    Database Programmer
+                  </h3>
+                  <p class="slider-item__company">Marraz Team</p>
+                  <div class="slider-item__content slider-item-content">
+                    <div class="slider-item-content__row">
+                      <div class="slider-item-content__icon">
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#dollar" />
+                        </svg>
+                      </div>
+                      <span>$14,000 - $25,000 </span>
+                      <i class="slider-item-content__period">/monthly</i>
+                    </div>
+                    <div class="slider-item-content__row">
+                      <div class="slider-item-content__icon">
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#pin" />
+                        </svg>
+                      </div>
+                      <span>London,England</span>
+                      <a href="#" class="slider-item-content__link">View map</a>
+                    </div>
+                  </div>
+                  <div class="slider-item__footer">
+                    <button class="slider-item__favorite button">
+                      <svg class="icon">
+                        <use xlink:href="assets/images/svg/sprite.svg#heart" />
+                      </svg>
+                    </button>
+                    <button class="slider-item__button jobs__button button ">Apply Now</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button class="jobs__view-more jobs__button button button--main ">View More</button>
+          </div>
         </section>
         <section class="feedbacks section">
-          <div class="container"></div>
+          <div class="container">
+            <h2 class="section__title">What Our Customer Says</h2>
+            <p class="feedback__subtitle section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div class="feedbacks-slider">
+              <ul class="feedbacks-slider__container" role="list">
+                <li class="feedbacks-slider__card feedbacks-card">
+                  <div class="feedbacks-card__image">
+                    <img src="assets/images/feedback-foto-1.png" alt="William Smith - CEO of the love students" />
+                  </div>
+                  <div class="feedbacks-card__content feedbacks-slider-content">
+                    <h2 class="feedbacks-card__name">William Smith</h2>
+                    <p class="feedbacks-card__position">ceo of the love students</p>
+                    <div class="feedbacks-card__rating">
+                      <div class="feedbacks-card__rating-stars">
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#star-filled" />
+                        </svg>
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#star-filled" />
+                        </svg>
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#star-filled" />
+                        </svg>
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#star-filled" />
+                        </svg>
+                        <svg class="icon">
+                          <use xlink:href="assets/images/svg/sprite.svg#star" />
+                        </svg>
+                      </div>
+                      <p class="feedbacks-card__rating-count">4.8</p>
+                    </div>
+                    <p class="feedbacks-card__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud
+                      exercitation ullamco laboris nisi ut aliquip.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip.”</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="feedbacks-slider__control slider-control">
+                <button class="slider-control__button slider-control__button--left button">
+                  <svg class="icon">
+                    <use xlink:href="assets/images/svg/sprite.svg#arrow-line" />
+                  </svg>
+                </button>
+                <button class="slider-control__button button">
+                  <svg class="icon">
+                    <use xlink:href="assets/images/svg/sprite.svg#arrow-line" />
+                  </svg>
+                </button>
+              </div>
+              <div class="feedbacks-details">
+                <ul class="feedbacks-details__list" role="list">
+                  <li class="feedbacks-details__item">
+                    <img src="assets/images/feedback-1.jpeg" alt="CEO of Marraz Team" />
+                  </li>
+                  <li class="feedbacks-details__item">
+                    <img src="assets/images/job-1.jpeg" alt="CEO of Tadeum" />
+                  </li>
+                  <li class="feedbacks-details__item">
+                    <img src="assets/images/feedback-3.jpeg" alt="Database Programmer Johna" />
+                  </li>
+                </ul>
+                <span class="feedbacks-details__count">21k+</span>
+              </div>
+            </div>
+
+
+          </div>
         </section>
         <section class="infographic section">
-          <div class="container"></div>
+          <div class="container">
+            <ul class="infographic__list" role="list">
+              <li>
+                <figure class="infographic__item">
+                  <p class="infographic__count">36,789</p>
+                  <figcaption class="infographic__name">Talented Freelancer</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="infographic__item">
+                  <p class="infographic__count">45,973</p>
+                  <figcaption class="infographic__name">Visitors</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="infographic__item">
+                  <p class="infographic__count">56,461</p>
+                  <figcaption class="infographic__name">Contract Made</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure class="infographic__item">
+                  <p class="infographic__count">852k</p>
+                  <figcaption class="infographic__name">Companies</figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
         </section>
         <section class="pricing section">
-          <div class="container"></div>
+          <div class="pricing container">
+            <h2 class="section__title">Pricing Plan</h2>
+            <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <ul class="pricing__list" role="list">
+              <li class="pricing__item pricing-item card">
+                <div class="pricing-item__header">
+                  <h2 class="pricing-item__name">free</h2>
+                  <p class="pricing-item__price">$0</p>
+                  <p class="pricing-item__period">Per month</p>
+                </div>
+                <ul class="pricing-item__features" role="list">
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Lorem ipsum dolor sit amet.</p>
+                  </li>
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Lorem ipsum dolor sit amet.</p>
+                  </li>
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Sed do eiusmod tempor</p>
+                  </li>
+                </ul>
+                <button class="pricing-item__button button ">Purchase Now</button>
+              </li>
+              <li class="pricing__item pricing-item card">
+                <div class="pricing-item__header">
+                  <h2 class="pricing-item__name">premium</h2>
+                  <p class="pricing-item__price">$175</p>
+                  <p class="pricing-item__period">Per month</p>
+                </div>
+                <ul class="pricing-item__features" role="list">
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Lorem ipsum dolor sit amet.</p>
+                  </li>
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Ut enim ad minim veniam.</p>
+                  </li>
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Lorem ipsum dolor sit amet.</p>
+                  </li>
+                </ul>
+                <button class="pricing-item__button button ">Purchase Now</button>
+              </li>
+              <li class="pricing__item pricing-item card">
+                <div class="pricing-item__header">
+                  <h2 class="pricing-item__name">platnium</h2>
+                  <p class="pricing-item__price">$500</p>
+                  <p class="pricing-item__period">Per month</p>
+                </div>
+                <ul class="pricing-item__features" role="list">
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Lorem ipsum dolor sit amet.</p>
+                  </li>
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Ut enim ad minim veniam.</p>
+                  </li>
+                  <li class="pricing-item__feature">
+                    <svg class="icon">
+                      <use xlink:href="assets/images/svg/sprite.svg#check" />
+                    </svg>
+                    <p class="pricing-item-feature__text">Sed do eiusmod tempor</p>
+                  </li>
+                </ul>
+                <button class="pricing-item__button button ">Purchase Now</button>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
 
