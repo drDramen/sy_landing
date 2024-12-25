@@ -819,7 +819,105 @@
   font-size: var(--system-font-sizeSecondary);
   border-radius: 50px;
   background: #bdbbd9;
-  transition: background-color var(--transition), background-color var(--transition), box-shadow var(--transition);
+  transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
 }
 
 /* pricing end */
+
+/* footer start*/
+
+.footer {
+  border-radius: 30px 30px 0 0;
+  background-color: var(--system-color-backgroundFooter);
+}
+
+.footer__logo {
+
+  .logo__image {
+    width: 62px;
+    height: 26px;
+  }
+
+}
+
+.deep-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 110px 0 90px;
+}
+
+.deep-navigation-section__title {
+  margin-bottom: 18px;
+  color: var(--system-color-fontTitle);
+  font-family: var(--system-font-familySecondary), sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.deep-navigation-section__list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 7px;
+  color: #717171;
+  font-size: var(--system-font-sizeSecondary);
+
+  li {
+    cursor: pointer;
+  }
+}
+
+.footer__navigation {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 2px solid var(--system-color-secondary);
+}
+
+.footer-menu {
+  flex-grow: 1;
+}
+
+.footer-menu__list {
+  justify-content: center;
+  column-gap: 8%;
+  margin: 0 20px;
+  color: #3a2e5c;
+  font-weight: 600;
+}
+
+.footer__social-list {
+  margin: 0 0 0 auto;
+}
+
+.social-list {
+  display: flex;
+  column-gap: 9px;
+}
+
+.social-list__item {
+  width: 30px;
+  height: 30px;
+  color: var(--system-color-fontPrimary);
+  border-radius: 50%;
+  background-color: var(--system-color-backgroundPrimary);
+  transition: color var(--transition), background-color var(--transition);
+
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .icon {
+    height: 12px;
+  }
+
+  &:hover {
+    color: var(--system-color-fontSecondary);
+    background-color: var(--system-color-secondary);
+  }
+}
+
+/* footer end*/
