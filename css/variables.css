@@ -31,4 +31,19 @@
   --system-font-sizeTitlePrimary: 40px;
   --system-font-sizeTitleSecondary: 20px;
   --system-font-sizeTitleHero: 45px;
+
+  @media screen and (max-width: 768px) {
+    --container-offset: 20px;
+    --system-font-sizeTitlePrimary: 30px;
+  }
+
+  @media screen and (max-width: 640px) {
+    --system-font-sizeTitleHero: 40px;
+  }
+
+  @media screen and (max-width: 540px) {
+    --container-offset: 10px;
+    --system-font-sizeTitleHero: 30px;
+  }
 }
+
