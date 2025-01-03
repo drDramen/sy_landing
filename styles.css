@@ -490,8 +490,10 @@
     background: #a73eed;
   }
 
-  &:hover {
-    transform: translateY(-15px);
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(-15px);
+    }
   }
 }
 
@@ -573,8 +575,6 @@
   color: var(--system-color-fontTitle);
 
   &:hover {
-    transform: translateY(-35px);
-
     .slider-item__favorite {
       color: var(--system-color-backgroundCardActive);
       background-color: var(--system-color-primary);
@@ -584,6 +584,12 @@
       color: var(--system-color-fontSecondary);
       background-color: var(--system-color-secondary);
       box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(-35px);
     }
   }
 }
@@ -849,11 +855,15 @@
   text-align: center;
 
   &:hover {
-    transform: translateY(-30px);
-
     .pricing-item__button {
       background-color: var(--system-color-secondary);
       box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(-30px);
     }
   }
 }
@@ -1071,10 +1081,6 @@
     "icon title"
     "icon text";
     column-gap: 20px;
-
-    &:hover {
-      transform: unset;
-    }
   }
 
   .why-us-item__icon {
@@ -1117,10 +1123,6 @@
     grid-template-columns: 140px 1fr auto;
     align-items: center;
     justify-items: unset;
-
-    &:hover {
-      transform: unset;
-    }
   }
 
   .pricing-item__header, .pricing-item__features {
