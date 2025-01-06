@@ -115,10 +115,6 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-
-}
-
 /* header start */
 
 .header {
@@ -152,10 +148,6 @@
   column-gap: 34px;
   margin: 0 17px;
 }
-
-/*.menu__item {*/
-/*  padding: 0 17px;*/
-/*}*/
 
 .search {
   display: flex;
