@@ -1,0 +1,23 @@
+.icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  transition: fill var(--transition);
+}
+
+.icon-find {
+  width: 14px;
+  height: 14px;
+  color: var(--system-color-primary);
+}
+
+.icon-demo {
+  width: 12px;
+  height: 12px;
+}
+
+.icon-play {
+  width: 24px;
+  height: 34px;
+}

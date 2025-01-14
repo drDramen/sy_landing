@@ -1,0 +1,49 @@
+:root {
+  /* base */
+  --content-width: 1110px;
+  --container-offset: 30px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --transition: 0.3s ease-in-out;
+
+  /* colors */
+  --system-color-primary: #ff5c00;
+  --system-color-secondary: #544cac;
+  --system-color-star: #ffb800;
+
+  --system-color-backgroundPrimary: #fff;
+  --system-color-backgroundSecondary: #f5f7ff;
+  --system-color-backgroundCardActive: #f9faff;
+  --system-color-backgroundInfographic: #ced5f4;
+  --system-color-backgroundFooter: #dbe2ff;
+
+  --system-color-fontPrimary: #a8a8a8;
+  --system-color-fontSecondary: #fff;
+  --system-color-fontTitle: #353434;
+  --system-color-fontPlaceholder: #a5a5a5;
+
+  /* fonts  */
+  --system-font-familyPrimary: "Open Sans";
+  --system-font-familySecondary: "Oswald";
+  --system-font-familyHero: "Prompt";
+
+  --system-font-sizePrimary: 14px;
+  --system-font-sizeSecondary: 16px;
+  --system-font-sizeTitlePrimary: 40px;
+  --system-font-sizeTitleSecondary: 20px;
+  --system-font-sizeTitleHero: 45px;
+
+  @media screen and (max-width: 768px) {
+    --container-offset: 20px;
+    --system-font-sizeTitlePrimary: 30px;
+  }
+
+  @media screen and (max-width: 640px) {
+    --system-font-sizeTitleHero: 40px;
+  }
+
+  @media screen and (max-width: 540px) {
+    --container-offset: 10px;
+    --system-font-sizeTitleHero: 30px;
+  }
+}
+
